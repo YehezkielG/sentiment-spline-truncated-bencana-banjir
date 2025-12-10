@@ -1,4 +1,4 @@
-# Analisis Titik Perubahan (Change Points) Tren Sentimen Media Sosial Menggunakan Spline Truncated
+# Analisis Titik Perubahan (Change Points) Tren Sentimen Media Sosial Menggunakan Spline Truncated 
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python)
 ![NumPy](https://img.shields.io/badge/NumPy-Math_Core-013243?style=for-the-badge&logo=numpy)
