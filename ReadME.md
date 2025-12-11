@@ -5,8 +5,6 @@
 ![Transformers](https://img.shields.io/badge/Hugging_Face-IndoBERT-yellow?style=for-the-badge&logo=huggingface)
 ![Status](https://img.shields.io/badge/Status-In_Progress-orange?style=for-the-badge)
 
-> **Proyek Rekayasa Ide - Mata Kuliah Metode Numerik** > Universitas Negeri Medan (UNIMED)
-
 ## 📌 Latar Belakang
 Di era digital, opini publik di media sosial bersifat sangat fluktuatif dan dinamis. Pendekatan statistik konvensional (seperti Regresi Linier) sering kali gagal memodelkan pola data ini karena memaksakan garis lurus global pada data yang perilakunya berubah-ubah.
 
