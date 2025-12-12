@@ -17,7 +17,7 @@ Proyek ini menggabungkan **Natural Language Processing (NLP)** dan **Metode Nume
 
 1.  **Data Acquisition:** Scraping komentar TikTok pada topik viral (Isu "Wapres/Gibran" & Bencana) [Link video yang di Analysis](https://www.tiktok.com/@antaranews/video/7580280925297184007?&t=1765172525354).
 2.  **Sentiment Scoring (NLP):**
-    * Menggunakan model Pre-trained **IndoBERT** (`w11wo/indonesian-roberta-base-sentiment-classifier`).
+    * Model sentimen yang digunakan adalah hasil fine-tuning IndoBERT ([`zekiell/indobert-tiktok-political-sentiment`](https://huggingface.co/zekiell/indobert-tiktok-political-sentiment)).
     * Konversi teks ke skalar numerik kontinu (-1 s.d 1) menggunakan rumus probabilitas: $Score = (1 * P_{positive}) + (0 * P_{neutral}) + (-1 * P_{negative})$.
 3.  **Numerical Method (The Core):**
     * **Spline Truncated:** Membangun model regresi potongan (piecewise) yang fleksibel.
